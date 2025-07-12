@@ -39,8 +39,8 @@ You’ll need the HuskyLens Arduino Library.
 3. Click "Install"
 
 #### Method 2: Manual Installation
-1. Download the library from the official DFRobot GitHub repo:  
-   [https://github.com/HuskyLens/HUSKYLENSArduino](https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#4.%20Upgrade%20Firmware)
+1. You and Download the library frome this link:  
+   [Download HusjyLens Library](https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#4.%20Upgrade%20Firmware)
 2. Extract the ZIP file
 3. Move the folder to: Documents/Arduino/libraries
 
