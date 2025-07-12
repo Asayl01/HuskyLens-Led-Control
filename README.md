@@ -59,7 +59,7 @@ You’ll need the HuskyLens Arduino Library.
 
 ---
 ## Wiring Diagram
-
+![wiring Diagram](huskylens-ardiono-i2c.png)
 
 ##  Important Notes
 - Make sure HuskyLens is set to Color Recognition mode from its onboard menu.
