@@ -1,4 +1,4 @@
-# Color-Based-Control-With-HuskyLens
+# HuskyLens With arduinoo
 
 ## Introduction
 HuskyLens is an AI-powered vision sensor that can recognize faces, objects, colors, lines, and more using built-in machine learning algorithms. It’s beginner-friendly and easy to integrate with microcontrollers like Arduino or Raspberry Pi.
