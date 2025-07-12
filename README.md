@@ -59,7 +59,8 @@ You’ll need the HuskyLens Arduino Library.
 
 ---
 ## Wiring Diagram
-![Wiring Diagram](huskylens-ardiono-i2c.png)
+
+
 ##  Important Notes
 - Make sure HuskyLens is set to Color Recognition mode from its onboard menu.
 - Train the HuskyLens to recognize each color separately (green, blue, white), and make sure each one has a unique ID (e.g., green = ID1, blue = ID2, white = ID3).
