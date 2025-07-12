@@ -16,7 +16,7 @@ The goal is to control colored LEDs using color detection. When the HuskyLens de
 
 ---
 
-## 🔧 Components Needed
+## Components Needed
 - HuskyLens AI Camera
 - Arduino Uno (or similar)
 - 3 LEDs (Green, Blue, White)
@@ -60,9 +60,9 @@ You’ll need the HuskyLens Arduino Library.
 ---
 
 ##  Important Notes
-> Make sure HuskyLens is set to Color Recognition mode from its onboard menu.
-> Train the HuskyLens to recognize each color separately (green, blue, white), and make sure each one has a unique ID (e.g., green = ID1, blue = ID2, white = ID3).
-> Double-check your LED connections and resistors.
+- Make sure HuskyLens is set to Color Recognition mode from its onboard menu.
+- Train the HuskyLens to recognize each color separately (green, blue, white), and make sure each one has a unique ID (e.g., green = ID1, blue = ID2, white = ID3).
+- Double-check your LED connections and resistors.
 
 ---
 
