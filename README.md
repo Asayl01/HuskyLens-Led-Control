@@ -58,7 +58,8 @@ You’ll need the HuskyLens Arduino Library.
 > 💡 Note: The default communication protocol is I2C. Make sure you're using the correct pins depending on your Arduino board (for Uno: A4 = SDA, A5 = SCL).
 
 ---
-
+## Wiring Diagram
+![Wiring Diagram](huskylens-ardiono-i2c.png)
 ##  Important Notes
 - Make sure HuskyLens is set to Color Recognition mode from its onboard menu.
 - Train the HuskyLens to recognize each color separately (green, blue, white), and make sure each one has a unique ID (e.g., green = ID1, blue = ID2, white = ID3).
