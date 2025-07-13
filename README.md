@@ -47,7 +47,7 @@ HuskyLens is an AI vision sensor that can detect and recognize faces, objects, c
 3. Click "Install"
 
 #### Method 2: Manual Installation
-1. You and Download the library from this link:  
+1. Download the library from this link:  
    [Download HuskyLens Library](https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#4.%20Upgrade%20Firmware)
 2. Extract the ZIP file
 3. Move the folder to: Documents/Arduino/libraries
