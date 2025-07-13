@@ -1,6 +1,22 @@
 # HuskyLens With arduinoo
 
-## Introduction
+## Project Idea
+
+The goal is to control the color of a single RGB LED using color detection. When the HuskyLens detects a specific color, the Arduino will light up the corresponding color in the RGB LED:
+- Red color → Red light
+- Green color → Green light
+- Blue color → Blue light
+
+## Components Needed
+
+- HuskyLens AI Camera
+- Arduino Uno (or similar)
+- 1 RGB LED (Common Anode)
+- 3 Resistors (220Ω)
+- Jumper Wires
+- Breadboard
+- USB Cable (for power and programming)
+  
 ### 1. What is HuskyLens?
 HuskyLens is an AI vision sensor that can detect and recognize faces, objects, colors, lines, and tags using built-in machine learning. It’s easy to use and integrates with Arduino, Raspberry Pi, and other microcontrollers via I2C or UART. It also features a built-in display for real-time visual feedback.
 ![HuskyLens](Huskylens.jpg)
