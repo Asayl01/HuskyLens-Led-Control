@@ -24,32 +24,7 @@ HuskyLens is an AI vision sensor that can detect and recognize faces, objects, c
 - Educational AI learning kits  
 - IoT systems with visual input
 
-
-
-## Project Idea
-
-The goal is to control the color of a single RGB LED using color detection. When the HuskyLens detects a specific color, the Arduino will light up the corresponding color in the RGB LED:
-- Red color → Red light
-- Green color → Green light
-- Blue color → Blue light
-
-## Components Needed
-
-- HuskyLens AI Camera
-- Arduino Uno (or similar)
-- 1 RGB LED (Common Anode)
-- 3 Resistors (220Ω)
-- Jumper Wires
-- Breadboard
-- USB Cable (for power and programming)
-  
-
-## Required Library
-
-You’ll need the HuskyLens Arduino Library.
-
-###  How to Install the Library:
-
+###  4. How to Install the Library:
 #### Method 1: From Arduino IDE
 1. Go to Sketch > Include Library > Manage Libraries...
 2. Search for HuskyLens
@@ -61,9 +36,7 @@ You’ll need the HuskyLens Arduino Library.
 2. Extract the ZIP file
 3. Move the folder to: Documents/Arduino/libraries
 
----
-
-##  HuskyLens to Arduino Wiring
+##  5. HuskyLens to Arduino Wiring
 
 | HuskyLens Pin | Arduino Pin |
 |---------------|-------------|
@@ -74,9 +47,19 @@ You’ll need the HuskyLens Arduino Library.
 
 > 💡 Note: The default communication protocol is I2C. Make sure you're using the correct pins depending on your Arduino board (for Uno: A4 = SDA, A5 = SCL).
 
----
-## Wiring Diagram
+
+## 6. Wiring Diagram
 ![wiring Diagram](huskylens-ardiono-i2c.png)
+
+
+
+
+
+
+
+
+
+
 
 
 
