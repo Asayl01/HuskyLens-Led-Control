@@ -3,7 +3,7 @@
 ## Introduction
 ### 1. What is HuskyLens?
 HuskyLens is an AI vision sensor that can detect and recognize faces, objects, colors, lines, and tags using built-in machine learning. It’s easy to use and integrates with Arduino, Raspberry Pi, and other microcontrollers via I2C or UART. It also features a built-in display for real-time visual feedback.
-
+![HuskyLens](Huskylens.jpg)
 
 ### 2. Features
 -  **Color Recognition** – Detects and identifies trained colors.
