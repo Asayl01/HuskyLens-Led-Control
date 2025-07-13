@@ -54,8 +54,6 @@ HuskyLens is an AI vision sensor that can detect and recognize faces, objects, c
 
 ## RGB LED Overview
 
-## RGB LED Overview
-
 An RGB LED combines Red, Green, and Blue LEDs in one package, allowing you to create various colors by mixing these three basic colors.
 
 ### How It Works
@@ -66,11 +64,10 @@ An RGB LED combines Red, Green, and Blue LEDs in one package, allowing you to cr
 - By adjusting the brightness of each color using PWM (`analogWrite`), you can create a wide range of colors.
 
 ### Wiring to Arduino
+
 ![Wiring](2D_Circuit_Arduino-RGB-LED-common-anode.png)
 
-
 ---
-
 
 ## How to Install the HuskyLens Library
 
@@ -98,7 +95,7 @@ An RGB LED combines Red, Green, and Blue LEDs in one package, allowing you to cr
 | TX            | A4 (SDA)    |
 | RX            | A5 (SCL)    |
 
-> 💡 Note: The default communication protocol is I2C. For Arduino Uno, use A4 (SDA) and A5 (SCL).
+> _Note: The default communication protocol is I2C. For Arduino Uno, use A4 (SDA) and A5 (SCL)._
 
 ---
 
