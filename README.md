@@ -54,19 +54,23 @@ HuskyLens is an AI vision sensor that can detect and recognize faces, objects, c
 
 ## RGB LED Overview
 
-In this project, we use a **Common Anode RGB LED**, which has:
+## RGB LED Overview
 
-- One common positive (anode) pin connected to 5V
-- Three separate pins for Red, Green, and Blue cathodes connected to Arduino pins via 220Ω resistors
-- To turn on a color, the corresponding Arduino pin is set **LOW** (because the LED is common anode)
+An RGB LED combines Red, Green, and Blue LEDs in one package, allowing you to create various colors by mixing these three basic colors.
 
-| Color | Arduino Pin |
-|-------|-------------|
-| Red   | D7          |
-| Green | D9          |
-| Blue  | D8          |
+### How It Works
+
+- Each color pin (Red, Green, Blue) connects to Arduino pins via 220Ω resistors.
+- For a **Common Anode** RGB LED, the common pin is connected to 5V.
+- The LED colors turn on when the corresponding Arduino pin is set to **LOW**.
+- By adjusting the brightness of each color using PWM (`analogWrite`), you can create a wide range of colors.
+
+### Wiring to Arduino
+![Wiring](2D_Circuit_Arduino-RGB-LED-common-anode.png)
+
 
 ---
+
 
 ## How to Install the HuskyLens Library
 
