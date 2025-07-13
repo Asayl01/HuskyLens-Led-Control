@@ -1,4 +1,4 @@
-# HuskyLens with Arduino
+# HuskyLens With RGB LED 
 
 ## Project Idea
 
