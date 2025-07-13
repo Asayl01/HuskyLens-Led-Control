@@ -1,4 +1,4 @@
-# HuskyLens With arduinoo
+# HuskyLens with Arduino
 
 ## Project Idea
 
@@ -6,6 +6,8 @@ The goal is to control the color of a single RGB LED using color detection. When
 - Red color → Red light
 - Green color → Green light
 - Blue color → Blue light
+
+---
 
 ## Components Needed
 
@@ -16,22 +18,30 @@ The goal is to control the color of a single RGB LED using color detection. When
 - Jumper Wires
 - Breadboard
 - USB Cable (for power and programming)
-  
-### 1. What is HuskyLens?
+
+---
+
+## What is HuskyLens?
+
 HuskyLens is an AI vision sensor that can detect and recognize faces, objects, colors, lines, and tags using built-in machine learning. It’s easy to use and integrates with Arduino, Raspberry Pi, and other microcontrollers via I2C or UART. It also features a built-in display for real-time visual feedback.
+
 ![HuskyLens](Huskylens.jpg)
 
-### 2. Features
--  **Color Recognition** – Detects and identifies trained colors.
--  **Face Recognition** – Learns and recognizes human faces.
--  **Object Recognition** – Identifies custom trained objects.
--  **Object Classification** – Categorizes items into classes.
--  **Object Tracking** – Follows moving objects automatically.
--  **Line Tracking** – Tracks lines for robotics applications.
--  **Tag Recognition (AprilTag)** – Reads visual markers like tags and IDs.
+---
 
+## Features
 
-### 3. Applications
+- **Color Recognition** – Detects and identifies trained colors.
+- **Face Recognition** – Learns and recognizes human faces.
+- **Object Recognition** – Identifies custom trained objects.
+- **Object Classification** – Categorizes items into classes.
+- **Object Tracking** – Follows moving objects automatically.
+- **Line Tracking** – Tracks lines for robotics applications.
+- **Tag Recognition (AprilTag)** – Reads visual markers like tags and IDs.
+
+---
+
+## Applications
 
 - Robotics and smart vehicle navigation  
 - Face-based entry or security systems  
@@ -40,19 +50,42 @@ HuskyLens is an AI vision sensor that can detect and recognize faces, objects, c
 - Educational AI learning kits  
 - IoT systems with visual input
 
-###  4. How to Install the Library:
-#### Method 1: From Arduino IDE
-1. Go to Sketch > Include Library > Manage Libraries...
-2. Search for HuskyLens
-3. Click "Install"
+---
 
-#### Method 2: Manual Installation
+## RGB LED Overview
+
+In this project, we use a **Common Anode RGB LED**, which has:
+
+- One common positive (anode) pin connected to 5V
+- Three separate pins for Red, Green, and Blue cathodes connected to Arduino pins via 220Ω resistors
+- To turn on a color, the corresponding Arduino pin is set **LOW** (because the LED is common anode)
+
+| Color | Arduino Pin |
+|-------|-------------|
+| Red   | D7          |
+| Green | D9          |
+| Blue  | D8          |
+
+---
+
+## How to Install the HuskyLens Library
+
+### Method 1: From Arduino IDE
+
+1. Go to **Sketch > Include Library > Manage Libraries...**  
+2. Search for **HuskyLens**  
+3. Click **Install**
+
+### Method 2: Manual Installation
+
 1. Download the library from this link:  
-   [Download HuskyLens Library](https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#4.%20Upgrade%20Firmware)
-2. Extract the ZIP file
-3. Move the folder to: Documents/Arduino/libraries
+   [Download HuskyLens Library](https://wiki.dfrobot.com/HUSKYLENS_V1.0_SKU_SEN0305_SEN0336#4.%20Upgrade%20Firmware)  
+2. Extract the ZIP file  
+3. Move the folder to: `Documents/Arduino/libraries`
 
-##  5. HuskyLens to Arduino Wiring
+---
+
+## HuskyLens to Arduino Wiring
 
 | HuskyLens Pin | Arduino Pin |
 |---------------|-------------|
@@ -61,21 +94,10 @@ HuskyLens is an AI vision sensor that can detect and recognize faces, objects, c
 | TX            | A4 (SDA)    |
 | RX            | A5 (SCL)    |
 
-> 💡 Note: The default communication protocol is I2C. Make sure you're using the correct pins depending on your Arduino board (for Uno: A4 = SDA, A5 = SCL).
+> 💡 Note: The default communication protocol is I2C. For Arduino Uno, use A4 (SDA) and A5 (SCL).
 
+---
 
-## 6. Wiring Diagram
-![wiring Diagram](huskylens-ardiono-i2c.png)
+## Wiring Diagram
 
-
-
-
-
-
-
-
-
-
-
-
-
+![Wiring Diagram](huskylens-ardiono-i2c.png)
