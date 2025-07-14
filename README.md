@@ -135,5 +135,5 @@ https://private-user-images.githubusercontent.com/210694101/465808530-b722f33b-a
 The full Arduino sketch used in this project is available in this repository:  
 [`husky_rgb_led.ino`](Code.ino)
 
----
+
 
