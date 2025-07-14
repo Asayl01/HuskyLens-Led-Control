@@ -108,3 +108,28 @@ For more details and to explore RGB color values, visit:
 ## Wiring Diagram
 
 ![Wiring Diagram](huskylens-ardiono-i2c.png)
+
+---
+
+## Complete Project Overview - Wiring 
+| Component          | Pin on Component   | Connected to Arduino Pin | Notes                      |
+|--------------------|--------------------|-------------------------|----------------------------|
+| HuskyLens VCC      | VCC                | 5V                      | Power                      |
+| HuskyLens GND      | GND                | GND                     | Ground                     |
+| HuskyLens TX       | TX                 | A4 (SDA)                | I2C Data Line              |
+| HuskyLens RX       | RX                 | A5 (SCL)                | I2C Clock Line             |
+| RGB LED Common Anode| Common (+)          | 5V                      | Common positive pin        |
+| RGB LED Red        | Red Pin            | 9                       | Connect via 220Ω resistor  |
+| RGB LED Green      | Green Pin          | 8                       | Connect via 220Ω resistor  |
+| RGB LED Blue       | Blue Pin           | 7                       | Connect via 220Ω resistor  |
+
+
+---
+
+## Arduino Code
+
+The full Arduino sketch used in this project is available in this repository:  
+[`husky_rgb_led.ino`](Code.ino)
+
+---
+
