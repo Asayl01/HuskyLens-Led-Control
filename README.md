@@ -55,13 +55,14 @@ HuskyLens is an AI vision sensor that can detect and recognize faces, objects, c
 ## RGB LED Overview
 
 An RGB LED combines Red, Green, and Blue LEDs in one package, allowing you to create various colors by mixing these three basic colors.
-<!-- Uploading "RGB_LED.MOV"... -->
+
 ### How It Works
 
 - Each color pin (Red, Green, Blue) connects to Arduino pins via 220Ω resistors.  
 - For a **Common Anode** RGB LED, the common pin is connected to 5V.  
 - The LED colors turn on when the corresponding Arduino pin is set to **LOW**.  
 - By adjusting the brightness of each color using PWM (`analogWrite`), you can create a wide range of colors.
+https://github.com/user-attachments/assets/b78c0ebf-ff08-4cdf-bbb7-ee658e4cfc84
 
 
 For more details and to explore RGB color values, visit:  
