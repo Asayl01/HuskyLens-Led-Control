@@ -123,6 +123,9 @@ For more details and to explore RGB color values, visit:
 | RGB LED Green      | Green Pin          | 8                       | Connect via 220Ω resistor  |
 | RGB LED Blue       | Blue Pin           | 7                       | Connect via 220Ω resistor  |
 
+## Project Result
+This video shows the final result of the project — the RGB LED changing colors based on HuskyLens color recognition.
+
 https://private-user-images.githubusercontent.com/210694101/465808530-b722f33b-a605-4dcf-9bf6-3bfab7212065.MOV?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI0NTg5NDgsIm5iZiI6MTc1MjQ1ODY0OCwicGF0aCI6Ii8yMTA2OTQxMDEvNDY1ODA4NTMwLWI3MjJmMzNiLWE2MDUtNGRjZi05YmY2LTNiZmFiNzIxMjA2NS5NT1Y_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxNFQwMjA0MDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NWVkYzlkOTk4NzM4MGEwN2ZhZGRmNzA2NmM5MzIyNjFjM2M2MTQxZjA1ZGM0NmM4MmM3MzU2MjNiMWFkNjdjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.xWbITB98hzA1mpX-txue4w8X17VmUgyTrM19FB5m-6E
 
 ---
