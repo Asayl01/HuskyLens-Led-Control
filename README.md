@@ -62,8 +62,7 @@ An RGB LED combines Red, Green, and Blue LEDs in one package, allowing you to cr
 - For a **Common Anode** RGB LED, the common pin is connected to 5V.  
 - The LED colors turn on when the corresponding Arduino pin is set to **LOW**.  
 - By adjusting the brightness of each color using PWM (`analogWrite`), you can create a wide range of colors.
-https://github.com/user-attachments/assets/b78c0ebf-ff08-4cdf-bbb7-ee658e4cfc84
-
+https://github.com/Asayl01/huskylens-rgb-led/issues/1#issue-3227079415
 
 For more details and to explore RGB color values, visit:  
 [W3Schools RGB Colors Guide](https://www.w3schools.com/colors/colors_rgb.asp)
