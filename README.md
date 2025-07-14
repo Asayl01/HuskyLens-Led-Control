@@ -65,10 +65,6 @@ An RGB LED combines Red, Green, and Blue LEDs in one package, allowing you to cr
 
 https://private-user-images.githubusercontent.com/210694101/465806556-b78c0ebf-ff08-4cdf-bbb7-ee658e4cfc84.MOV?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTI0NTczNDMsIm5iZiI6MTc1MjQ1NzA0MywicGF0aCI6Ii8yMTA2OTQxMDEvNDY1ODA2NTU2LWI3OGMwZWJmLWZmMDgtNGNkZi1iYmI3LWVlNjU4ZTRjZmM4NC5NT1Y_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzE0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcxNFQwMTM3MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYmY2ZTViMmViMzE4OWRiODE0MjBlM2U3YWU4NjJkNWIyNzA3ZDQwOTk0Zjc5NzM5YThkMTdhY2M1NWY3N2Q0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.nqtLZygssm6YzpdNqHJY6iPBa5Hp2ZDh3-HeZ5hnYVA
 
-<video width="100%" controls>
-  <source src="https://user-images.githubusercontent.com/....../demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 For more details and to explore RGB color values, visit:  
 [W3Schools RGB Colors Guide](https://www.w3schools.com/colors/colors_rgb.asp)
