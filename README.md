@@ -102,7 +102,7 @@ For more details and to explore RGB color values, visit:
 | RX            | A5 (SCL)    |
 
 > _Note: The default communication protocol is I2C. For Arduino Uno, use A4 (SDA) and A5 (SCL)._
-
+> To change the communication protocol on HuskyLens, go to **Settings > Protocol Type**, select the desired protocol (e.g., I2C or UART), and then **Save** your changes.  
 ---
 
 ## Wiring Diagram
