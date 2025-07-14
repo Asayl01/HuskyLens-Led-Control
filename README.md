@@ -63,6 +63,11 @@ An RGB LED combines Red, Green, and Blue LEDs in one package, allowing you to cr
 - The LED colors turn on when the corresponding Arduino pin is set to **LOW**.  
 - By adjusting the brightness of each color using PWM (`analogWrite`), you can create a wide range of colors.
 
+<video width="100%" controls>
+  <source src="Video/RGB_LED.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 For more details and to explore RGB color values, visit:  
 [W3Schools RGB Colors Guide](https://www.w3schools.com/colors/colors_rgb.asp)
 
